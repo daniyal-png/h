@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: flex-start; /* Align content to the left */
     align-items: center;
-    color: white;
+    color: #003f00;
     position: fixed; /* Makes the header stay fixed at the top */
     width: 100%;
     top: 0;
