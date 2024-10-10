@@ -12,6 +12,37 @@ body {
     padding: 0;
 }
 
+/* Header Section */
+.site-header {
+    background-color: transparent; /* Transparent background */
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    color: white;
+    position: fixed; /* Makes the header stay fixed at the top */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensures header stays on top of other elements */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust the logo size */
+    height: auto;
+    margin-right: 15px; /* Space between logo and site name */
+}
+
+.site-name {
+    font-size: 24px; /* Font size for site name */
+    font-weight: bold;
+    color: white; /* White text */
+}
+
 /* Hero Section */
 .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
