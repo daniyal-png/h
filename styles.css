@@ -154,42 +154,27 @@ body {
     text-align: center;
 }
 
-.contact-form {
-    max-width: 400px;
-    margin: 0 auto;
+.contact form {
     display: flex;
     flex-direction: column;
-    gap; 20px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.input-row {
-    display: flex;
-    gap: 10px;
-}
-
-.contact-form input {
-    flex: 1;
+.contact input, .contact textarea {
+    margin: 10px 0;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.contact-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-    min-height: 120px;
-}
-
-.contact-form button {
-    background-color: #1a7b3b;
+.contact button {
+    background: #3C6E71;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    align-self: center;
+    font-size: 1.1em;
 }
 
 /* Footer styling */
