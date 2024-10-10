@@ -14,7 +14,7 @@ body {
 
 /* Header Section */
 .site-header {
-    background-color: transparent; /* Transparent background */
+    background-color: #f4f4f4; /* #f4f4f4 background */
     padding: 20px 40px;
     display: flex;
     justify-content: flex-start; /* Align content to the left */
