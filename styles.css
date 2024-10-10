@@ -172,22 +172,6 @@ header h1 {
     text-align: center;
 }
 
-.cta-section h2 {
-    margin-bottom: 20px;
-}
-
-.cta-section .cta-btn {
-    background-color: white;
-    color: #28a745;
-    padding: 15px 30px;
-}
-
-/* Services section */
-.services, .certifications, .trusted-clients, .contact {
-    padding: 50px 20px;
-    text-align: center;
-}
-
 .service-container, .certification-container, .client-logos {
     display: flex;
     justify-content: center;
